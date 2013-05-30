@@ -21,3 +21,4 @@ rvm:
 branches:
   only:
     - master
+    - 2-0-stable
