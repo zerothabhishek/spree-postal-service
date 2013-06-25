@@ -1,4 +1,4 @@
-if ENV["COVERAGE"]
+if ENV['COVERAGE']
   require 'simplecov'
   require 'coveralls'
   SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
@@ -11,7 +11,7 @@ if ENV["COVERAGE"]
   end
 end
 
-ENV["RAILS_ENV"] = 'test'
+ENV['RAILS_ENV'] = 'test'
 
 require File.expand_path('../dummy/config/environment.rb',  __FILE__)
 
@@ -43,5 +43,3 @@ RSpec.configure do |config|
     DatabaseCleaner.clean
   end
 end
-
-#@configuration ||= AppConfiguration.find_or_create_by_name('Default configuration')

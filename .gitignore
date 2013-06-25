@@ -15,3 +15,4 @@ spec/dummy
 spec/test
 .rvmrc
 .coveralls.yml
+.localeapp

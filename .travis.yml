@@ -6,7 +6,7 @@ before_script:
 env:
   - COVERAGE=true
 script:
-  - bundle exec rake
+  - bundle exec rspec spec
 notifications:
   email:
     - hi@futhr.io
@@ -21,4 +21,3 @@ rvm:
 branches:
   only:
     - master
-    - 2-0-stable
